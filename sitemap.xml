@@ -1,26 +1,200 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEditor.StatusFX.StatusEffectControlEditor.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEditor.StatusFX.StatusEffectDrawer.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEditor.StatusFX.StatusEffectTypeEditor.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEditor.StatusFX.VisualScripting.Setup.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEditor.StatusFX.VisualScripting.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEditor.StatusFX.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.DurationMode.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.IStatusEffectListener.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.StackMode.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.StatusEffect.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.StatusEffectControl.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.StatusEffectEventArgs.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.StatusEffectState.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.StatusEffectType.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.BaseStatusEffectEventUnit.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.BaseStatusEffectMessageListener.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.EventHooks.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectApplied.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectAppliedMessageListener.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectEnqueued.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectEnqueuedMessageListener.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectExpired.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectExpiredMessageListener.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectRemoved.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectRemovedMessageListener.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectUpdated.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectUpdatedMessageListener.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.VisualScripting.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/ToolkitEngine.StatusFX.html</loc>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://nrvllrgrs.github.io/toolkit.statusfx/api/index.html</loc>
-    <lastmod>2024-02-06T09:30:10+00:00</lastmod>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.statusfx/index.html</loc>
-    <lastmod>2024-02-06T09:30:10+00:00</lastmod>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.statusfx/license/LICENSE.html</loc>
-    <lastmod>2024-02-06T09:30:10+00:00</lastmod>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.statusfx/manual/index.html</loc>
-    <lastmod>2024-02-06T09:30:10+00:00</lastmod>
+    <lastmod>2024-02-06T09:33:54+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

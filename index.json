@@ -1,22 +1,167 @@
 {
+  "api/ToolkitEditor.StatusFX.StatusEffectControlEditor.html": {
+    "href": "api/ToolkitEditor.StatusFX.StatusEffectControlEditor.html",
+    "title": "Class StatusEffectControlEditor | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffectControlEditor Namespace ToolkitEditor.StatusFX public class StatusEffectControlEditor : BaseToolkitEditor Inheritance object StatusEffectControlEditor Fields m_onApplied protected SerializedProperty m_onApplied Field Value SerializedProperty m_onEnqueued protected SerializedProperty m_onEnqueued Field Value SerializedProperty m_onExpired protected SerializedProperty m_onExpired Field Value SerializedProperty m_onRemoved protected SerializedProperty m_onRemoved Field Value SerializedProperty m_onUpdated protected SerializedProperty m_onUpdated Field Value SerializedProperty m_statusEffects protected SerializedProperty m_statusEffects Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.StatusFX.StatusEffectDrawer.html": {
+    "href": "api/ToolkitEditor.StatusFX.StatusEffectDrawer.html",
+    "title": "Class StatusEffectDrawer | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffectDrawer Namespace ToolkitEditor.StatusFX public class StatusEffectDrawer : PropertyDrawer Inheritance object StatusEffectDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.StatusFX.StatusEffectTypeEditor.html": {
+    "href": "api/ToolkitEditor.StatusFX.StatusEffectTypeEditor.html",
+    "title": "Class StatusEffectTypeEditor | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffectTypeEditor Namespace ToolkitEditor.StatusFX public class StatusEffectTypeEditor : Editor Inheritance object StatusEffectTypeEditor Fields m_color protected SerializedProperty m_color Field Value SerializedProperty m_description protected SerializedProperty m_description Field Value SerializedProperty m_durationMode protected SerializedProperty m_durationMode Field Value SerializedProperty m_icon protected SerializedProperty m_icon Field Value SerializedProperty m_id protected SerializedProperty m_id Field Value SerializedProperty m_maxStack protected SerializedProperty m_maxStack Field Value SerializedProperty m_name protected SerializedProperty m_name Field Value SerializedProperty m_script protected SerializedProperty m_script Field Value SerializedProperty m_stackMode protected SerializedProperty m_stackMode Field Value SerializedProperty m_statusEffect protected StatusEffectType m_statusEffect Field Value StatusEffectType m_timedDuration protected SerializedProperty m_timedDuration Field Value SerializedProperty Methods OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.StatusFX.VisualScripting.Setup.html": {
+    "href": "api/ToolkitEditor.StatusFX.VisualScripting.Setup.html",
+    "title": "Class Setup | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class Setup Namespace ToolkitEditor.StatusFX.VisualScripting public static class Setup Inheritance object Setup Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/ToolkitEditor.StatusFX.VisualScripting.html": {
+    "href": "api/ToolkitEditor.StatusFX.VisualScripting.html",
+    "title": "Namespace ToolkitEditor.StatusFX.VisualScripting | StatusFX Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.StatusFX.VisualScripting Classes Setup"
+  },
+  "api/ToolkitEditor.StatusFX.html": {
+    "href": "api/ToolkitEditor.StatusFX.html",
+    "title": "Namespace ToolkitEditor.StatusFX | StatusFX Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.StatusFX Classes StatusEffectControlEditor StatusEffectDrawer StatusEffectTypeEditor"
+  },
+  "api/ToolkitEngine.StatusFX.DurationMode.html": {
+    "href": "api/ToolkitEngine.StatusFX.DurationMode.html",
+    "title": "Enum DurationMode | StatusFX Toolkit | 1.0.0",
+    "keywords": "Enum DurationMode Namespace ToolkitEngine.StatusFX public enum DurationMode Fields Instant = 0 Manual = 1 Timed = 2"
+  },
+  "api/ToolkitEngine.StatusFX.IStatusEffectListener.html": {
+    "href": "api/ToolkitEngine.StatusFX.IStatusEffectListener.html",
+    "title": "Interface IStatusEffectListener | StatusFX Toolkit | 1.0.0",
+    "keywords": "Interface IStatusEffectListener Namespace ToolkitEngine.StatusFX public interface IStatusEffectListener Properties onApplied UnityEvent<StatusEffectEventArgs> onApplied { get; } Property Value UnityEvent<StatusEffectEventArgs> onEnqueued UnityEvent<StatusEffectEventArgs> onEnqueued { get; } Property Value UnityEvent<StatusEffectEventArgs> onExpired UnityEvent<StatusEffectEventArgs> onExpired { get; } Property Value UnityEvent<StatusEffectEventArgs> onRemoved UnityEvent<StatusEffectEventArgs> onRemoved { get; } Property Value UnityEvent<StatusEffectEventArgs> onUpdated UnityEvent<StatusEffectEventArgs> onUpdated { get; } Property Value UnityEvent<StatusEffectEventArgs>"
+  },
+  "api/ToolkitEngine.StatusFX.StackMode.html": {
+    "href": "api/ToolkitEngine.StatusFX.StackMode.html",
+    "title": "Enum StackMode | StatusFX Toolkit | 1.0.0",
+    "keywords": "Enum StackMode Namespace ToolkitEngine.StatusFX public enum StackMode Fields Independent = 0 Queued = 1"
+  },
+  "api/ToolkitEngine.StatusFX.StatusEffect.html": {
+    "href": "api/ToolkitEngine.StatusFX.StatusEffect.html",
+    "title": "Class StatusEffect | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffect Namespace ToolkitEngine.StatusFX public class StatusEffect Inheritance object StatusEffect Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StatusEffect(StatusEffectType, GameObject) public StatusEffect(StatusEffectType effectType, GameObject source) Parameters effectType StatusEffectType source GameObject StatusEffect(StatusEffectType, float, GameObject) public StatusEffect(StatusEffectType effectType, float duration, GameObject source) Parameters effectType StatusEffectType duration float source GameObject Properties duration public float duration { get; } Property Value float durationType public DurationMode durationType { get; } Property Value DurationMode normalizedTime public float normalizedTime { get; } Property Value float source public GameObject source { get; } Property Value GameObject statusEffectType public StatusEffectType statusEffectType { get; } Property Value StatusEffectType time public float time { get; } Property Value float tracker public GameObject tracker { get; } Property Value GameObject"
+  },
+  "api/ToolkitEngine.StatusFX.StatusEffectControl.html": {
+    "href": "api/ToolkitEngine.StatusFX.StatusEffectControl.html",
+    "title": "Class StatusEffectControl | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffectControl Namespace ToolkitEngine.StatusFX public class StatusEffectControl : MonoBehaviour, IPoolItemRecyclable, IStatusEffectListener Inheritance object StatusEffectControl Implements IPoolItemRecyclable IStatusEffectListener Properties onApplied public UnityEvent<StatusEffectEventArgs> onApplied { get; } Property Value UnityEvent<StatusEffectEventArgs> onEnqueued public UnityEvent<StatusEffectEventArgs> onEnqueued { get; } Property Value UnityEvent<StatusEffectEventArgs> onExpired public UnityEvent<StatusEffectEventArgs> onExpired { get; } Property Value UnityEvent<StatusEffectEventArgs> onRemoved public UnityEvent<StatusEffectEventArgs> onRemoved { get; } Property Value UnityEvent<StatusEffectEventArgs> onUpdated public UnityEvent<StatusEffectEventArgs> onUpdated { get; } Property Value UnityEvent<StatusEffectEventArgs> Methods AddImmunity(StatusEffectType) public bool AddImmunity(StatusEffectType effectType) Parameters effectType StatusEffectType Returns bool Apply(StatusEffectType, GameObject) public bool Apply(StatusEffectType effectType, GameObject source = null) Parameters effectType StatusEffectType source GameObject Returns bool Apply(StatusEffectType, float, GameObject) public bool Apply(StatusEffectType effectType, float duration, GameObject source = null) Parameters effectType StatusEffectType duration float source GameObject Returns bool CanApply(StatusEffectType) public bool CanApply(StatusEffectType effectType) Parameters effectType StatusEffectType Returns bool CanRemove(StatusEffectType) public bool CanRemove(StatusEffectType effectType) Parameters effectType StatusEffectType Returns bool Recycle() public void Recycle() Remove(StatusEffectType, GameObject) public bool Remove(StatusEffectType statusEffectType, GameObject source) Parameters statusEffectType StatusEffectType source GameObject Returns bool RemoveAll(GameObject) public void RemoveAll(GameObject source = null) Parameters source GameObject RemoveImmunity(StatusEffectType) public bool RemoveImmunity(StatusEffectType effectType) Parameters effectType StatusEffectType Returns bool TryGetStatusEffectState(StatusEffectType, out StatusEffectState) public bool TryGetStatusEffectState(StatusEffectType effectType, out StatusEffectState effectState) Parameters effectType StatusEffectType effectState StatusEffectState Returns bool"
+  },
+  "api/ToolkitEngine.StatusFX.StatusEffectEventArgs.html": {
+    "href": "api/ToolkitEngine.StatusFX.StatusEffectEventArgs.html",
+    "title": "Class StatusEffectEventArgs | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffectEventArgs Namespace ToolkitEngine.StatusFX public class StatusEffectEventArgs : EventArgs Inheritance object EventArgs StatusEffectEventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StatusEffectEventArgs(StatusEffectControl, StatusEffect, int) public StatusEffectEventArgs(StatusEffectControl effectControl, StatusEffect effect, int index) Parameters effectControl StatusEffectControl effect StatusEffect index int Properties index public int index { get; } Property Value int statusEffect public StatusEffect statusEffect { get; } Property Value StatusEffect statusEffectControl public StatusEffectControl statusEffectControl { get; } Property Value StatusEffectControl statusEffectState public StatusEffectState statusEffectState { get; } Property Value StatusEffectState"
+  },
+  "api/ToolkitEngine.StatusFX.StatusEffectState.html": {
+    "href": "api/ToolkitEngine.StatusFX.StatusEffectState.html",
+    "title": "Class StatusEffectState | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffectState Namespace ToolkitEngine.StatusFX [Serializable] public class StatusEffectState : IStatusEffectListener Inheritance object StatusEffectState Implements IStatusEffectListener Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties applyOnStart Indicates whether status effect is applied on creation public bool applyOnStart { get; } Property Value bool isApplied Indicates whether status effect is applied to gameObject public bool isApplied { get; } Property Value bool isImmune Indicates whether status effect cannot be applied due to (temporary) immunity public bool isImmune { get; } Property Value bool isQueueEmpty public bool isQueueEmpty { get; } Property Value bool onApplied public UnityEvent<StatusEffectEventArgs> onApplied { get; } Property Value UnityEvent<StatusEffectEventArgs> onEnqueued public UnityEvent<StatusEffectEventArgs> onEnqueued { get; } Property Value UnityEvent<StatusEffectEventArgs> onExpired public UnityEvent<StatusEffectEventArgs> onExpired { get; } Property Value UnityEvent<StatusEffectEventArgs> onRemoved public UnityEvent<StatusEffectEventArgs> onRemoved { get; } Property Value UnityEvent<StatusEffectEventArgs> onUpdated public UnityEvent<StatusEffectEventArgs> onUpdated { get; } Property Value UnityEvent<StatusEffectEventArgs> queueCount public int queueCount { get; } Property Value int stackSize public int stackSize { get; } Property Value int statusEffectControl public StatusEffectControl statusEffectControl { get; } Property Value StatusEffectControl statusEffectType public StatusEffectType statusEffectType { get; } Property Value StatusEffectType statusEffects public StatusEffect[] statusEffects { get; } Property Value StatusEffect[]"
+  },
+  "api/ToolkitEngine.StatusFX.StatusEffectType.html": {
+    "href": "api/ToolkitEngine.StatusFX.StatusEffectType.html",
+    "title": "Class StatusEffectType | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class StatusEffectType Namespace ToolkitEngine.StatusFX public class StatusEffectType : ScriptableObject Inheritance object StatusEffectType Properties color public Color color { get; } Property Value Color duration public float duration { get; } Property Value float durationMode public DurationMode durationMode { get; } Property Value DurationMode icon public Sprite icon { get; } Property Value Sprite id public string id { get; } Property Value string maxStack public int maxStack { get; } Property Value int name public string name { get; } Property Value string script public ScriptGraphAsset script { get; } Property Value ScriptGraphAsset stackMode public StackMode stackMode { get; } Property Value StackMode Methods Apply(GameObject, GameObject) public void Apply(GameObject target, GameObject source = null) Parameters target GameObject source GameObject Apply(GameObject, float, GameObject) public void Apply(GameObject target, float duration, GameObject source = null) Parameters target GameObject duration float source GameObject Remove(GameObject, GameObject) public void Remove(GameObject target, GameObject source = null) Parameters target GameObject source GameObject"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.BaseStatusEffectEventUnit.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.BaseStatusEffectEventUnit.html",
+    "title": "Class BaseStatusEffectEventUnit | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class BaseStatusEffectEventUnit Namespace ToolkitEngine.StatusFX.VisualScripting public abstract class BaseStatusEffectEventUnit : BaseEventUnit<StatusEffectEventArgs> Inheritance object BaseStatusEffectEventUnit Derived OnStatusEffectApplied OnStatusEffectEnqueued OnStatusEffectExpired OnStatusEffectRemoved OnStatusEffectUpdated Fields filtered public bool filtered Field Value bool Properties filter public ValueInput filter { get; } Property Value ValueInput Methods Definition() protected override void Definition() ShouldTrigger(Flow, StatusEffectEventArgs) protected override bool ShouldTrigger(Flow flow, StatusEffectEventArgs args) Parameters flow Flow args StatusEffectEventArgs Returns bool"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.BaseStatusEffectMessageListener.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.BaseStatusEffectMessageListener.html",
+    "title": "Class BaseStatusEffectMessageListener | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class BaseStatusEffectMessageListener Namespace ToolkitEngine.StatusFX.VisualScripting public abstract class BaseStatusEffectMessageListener : MessageListener Inheritance object BaseStatusEffectMessageListener Derived OnStatusEffectAppliedMessageListener OnStatusEffectEnqueuedMessageListener OnStatusEffectExpiredMessageListener OnStatusEffectRemovedMessageListener OnStatusEffectUpdatedMessageListener Fields m_effectListener protected IStatusEffectListener m_effectListener Field Value IStatusEffectListener Properties hookName protected abstract string hookName { get; } Property Value string Methods Register(IStatusEffectListener) protected abstract void Register(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener Trigger(StatusEffectEventArgs) protected void Trigger(StatusEffectEventArgs e) Parameters e StatusEffectEventArgs Unregister(IStatusEffectListener) protected abstract void Unregister(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.EventHooks.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.EventHooks.html",
+    "title": "Class EventHooks | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class EventHooks Namespace ToolkitEngine.StatusFX.VisualScripting public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnStatusEffectApplied public const string OnStatusEffectApplied = \"OnStatusEffectApplied\" Field Value string OnStatusEffectEnqueued public const string OnStatusEffectEnqueued = \"OnStatusEffectEnqueued\" Field Value string OnStatusEffectExpired public const string OnStatusEffectExpired = \"OnStatusEffectExpired\" Field Value string OnStatusEffectRemoved public const string OnStatusEffectRemoved = \"OnStatusEffectRemoved\" Field Value string OnStatusEffectUpdated public const string OnStatusEffectUpdated = \"OnStatusEffectUpdated\" Field Value string"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectApplied.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectApplied.html",
+    "title": "Class OnStatusEffectApplied | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectApplied Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectApplied : BaseStatusEffectEventUnit Inheritance object BaseStatusEffectEventUnit OnStatusEffectApplied Inherited Members BaseStatusEffectEventUnit.filtered BaseStatusEffectEventUnit.filter BaseStatusEffectEventUnit.Definition() BaseStatusEffectEventUnit.ShouldTrigger(Flow, StatusEffectEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectAppliedMessageListener.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectAppliedMessageListener.html",
+    "title": "Class OnStatusEffectAppliedMessageListener | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectAppliedMessageListener Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectAppliedMessageListener : BaseStatusEffectMessageListener Inheritance object BaseStatusEffectMessageListener OnStatusEffectAppliedMessageListener Inherited Members BaseStatusEffectMessageListener.m_effectListener BaseStatusEffectMessageListener.Trigger(StatusEffectEventArgs) Properties hookName protected override string hookName { get; } Property Value string Methods Register(IStatusEffectListener) protected override void Register(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener Unregister(IStatusEffectListener) protected override void Unregister(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectEnqueued.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectEnqueued.html",
+    "title": "Class OnStatusEffectEnqueued | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectEnqueued Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectEnqueued : BaseStatusEffectEventUnit Inheritance object BaseStatusEffectEventUnit OnStatusEffectEnqueued Inherited Members BaseStatusEffectEventUnit.filtered BaseStatusEffectEventUnit.filter BaseStatusEffectEventUnit.Definition() BaseStatusEffectEventUnit.ShouldTrigger(Flow, StatusEffectEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectEnqueuedMessageListener.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectEnqueuedMessageListener.html",
+    "title": "Class OnStatusEffectEnqueuedMessageListener | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectEnqueuedMessageListener Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectEnqueuedMessageListener : BaseStatusEffectMessageListener Inheritance object BaseStatusEffectMessageListener OnStatusEffectEnqueuedMessageListener Inherited Members BaseStatusEffectMessageListener.m_effectListener BaseStatusEffectMessageListener.Trigger(StatusEffectEventArgs) Properties hookName protected override string hookName { get; } Property Value string Methods Register(IStatusEffectListener) protected override void Register(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener Unregister(IStatusEffectListener) protected override void Unregister(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectExpired.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectExpired.html",
+    "title": "Class OnStatusEffectExpired | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectExpired Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectExpired : BaseStatusEffectEventUnit Inheritance object BaseStatusEffectEventUnit OnStatusEffectExpired Inherited Members BaseStatusEffectEventUnit.filtered BaseStatusEffectEventUnit.filter BaseStatusEffectEventUnit.Definition() BaseStatusEffectEventUnit.ShouldTrigger(Flow, StatusEffectEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectExpiredMessageListener.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectExpiredMessageListener.html",
+    "title": "Class OnStatusEffectExpiredMessageListener | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectExpiredMessageListener Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectExpiredMessageListener : BaseStatusEffectMessageListener Inheritance object BaseStatusEffectMessageListener OnStatusEffectExpiredMessageListener Inherited Members BaseStatusEffectMessageListener.m_effectListener BaseStatusEffectMessageListener.Trigger(StatusEffectEventArgs) Properties hookName protected override string hookName { get; } Property Value string Methods Register(IStatusEffectListener) protected override void Register(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener Unregister(IStatusEffectListener) protected override void Unregister(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectRemoved.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectRemoved.html",
+    "title": "Class OnStatusEffectRemoved | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectRemoved Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectRemoved : BaseStatusEffectEventUnit Inheritance object BaseStatusEffectEventUnit OnStatusEffectRemoved Inherited Members BaseStatusEffectEventUnit.filtered BaseStatusEffectEventUnit.filter BaseStatusEffectEventUnit.Definition() BaseStatusEffectEventUnit.ShouldTrigger(Flow, StatusEffectEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectRemovedMessageListener.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectRemovedMessageListener.html",
+    "title": "Class OnStatusEffectRemovedMessageListener | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectRemovedMessageListener Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectRemovedMessageListener : BaseStatusEffectMessageListener Inheritance object BaseStatusEffectMessageListener OnStatusEffectRemovedMessageListener Inherited Members BaseStatusEffectMessageListener.m_effectListener BaseStatusEffectMessageListener.Trigger(StatusEffectEventArgs) Properties hookName protected override string hookName { get; } Property Value string Methods Register(IStatusEffectListener) protected override void Register(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener Unregister(IStatusEffectListener) protected override void Unregister(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectUpdated.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectUpdated.html",
+    "title": "Class OnStatusEffectUpdated | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectUpdated Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectUpdated : BaseStatusEffectEventUnit Inheritance object BaseStatusEffectEventUnit OnStatusEffectUpdated Inherited Members BaseStatusEffectEventUnit.filtered BaseStatusEffectEventUnit.filter BaseStatusEffectEventUnit.Definition() BaseStatusEffectEventUnit.ShouldTrigger(Flow, StatusEffectEventArgs) Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectUpdatedMessageListener.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectUpdatedMessageListener.html",
+    "title": "Class OnStatusEffectUpdatedMessageListener | StatusFX Toolkit | 1.0.0",
+    "keywords": "Class OnStatusEffectUpdatedMessageListener Namespace ToolkitEngine.StatusFX.VisualScripting public class OnStatusEffectUpdatedMessageListener : BaseStatusEffectMessageListener Inheritance object BaseStatusEffectMessageListener OnStatusEffectUpdatedMessageListener Inherited Members BaseStatusEffectMessageListener.m_effectListener BaseStatusEffectMessageListener.Trigger(StatusEffectEventArgs) Properties hookName protected override string hookName { get; } Property Value string Methods Register(IStatusEffectListener) protected override void Register(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener Unregister(IStatusEffectListener) protected override void Unregister(IStatusEffectListener effectListener) Parameters effectListener IStatusEffectListener"
+  },
+  "api/ToolkitEngine.StatusFX.VisualScripting.html": {
+    "href": "api/ToolkitEngine.StatusFX.VisualScripting.html",
+    "title": "Namespace ToolkitEngine.StatusFX.VisualScripting | StatusFX Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.StatusFX.VisualScripting Classes BaseStatusEffectEventUnit BaseStatusEffectMessageListener EventHooks OnStatusEffectApplied OnStatusEffectAppliedMessageListener OnStatusEffectEnqueued OnStatusEffectEnqueuedMessageListener OnStatusEffectExpired OnStatusEffectExpiredMessageListener OnStatusEffectRemoved OnStatusEffectRemovedMessageListener OnStatusEffectUpdated OnStatusEffectUpdatedMessageListener"
+  },
+  "api/ToolkitEngine.StatusFX.html": {
+    "href": "api/ToolkitEngine.StatusFX.html",
+    "title": "Namespace ToolkitEngine.StatusFX | StatusFX Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.StatusFX Classes StatusEffect StatusEffectControl StatusEffectEventArgs StatusEffectState StatusEffectType Interfaces IStatusEffectListener Enums DurationMode StackMode"
+  },
   "api/index.html": {
     "href": "api/index.html",
-    "title": "| |",
+    "title": "| StatusFX Toolkit | 1.0.0",
     "keywords": "This is the documentation for the Scripting APIs of this package."
   },
   "index.html": {
     "href": "index.html",
-    "title": "| |",
+    "title": "| StatusFX Toolkit | 1.0.0",
     "keywords": "This page redirects to the manual."
   },
   "license/LICENSE.html": {
     "href": "license/LICENSE.html",
-    "title": "| |",
+    "title": "| StatusFX Toolkit | 1.0.0",
     "keywords": "MIT License Copyright (c) 2024 nrvllrgrs Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   "manual/index.html": {
     "href": "manual/index.html",
-    "title": "toolkit.statusfx | |",
+    "title": "toolkit.statusfx | StatusFX Toolkit | 1.0.0",
     "keywords": "toolkit.statusfx"
   }
 }
