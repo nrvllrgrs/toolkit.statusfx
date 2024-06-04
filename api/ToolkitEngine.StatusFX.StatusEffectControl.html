@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_StatusFX_StatusEffectControl" data-uid="ToolkitEngine.StatusFX.StatusEffectControl" class="text-break">
-Class StatusEffectControl  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L45"><i class="bi bi-code-slash"></i></a>
+Class StatusEffectControl  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -138,7 +138,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_onApplied" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.onApplied">
   onApplied
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -169,7 +169,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_onEnqueued" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.onEnqueued">
   onEnqueued
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -200,7 +200,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_onExpired" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.onExpired">
   onExpired
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -231,7 +231,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_onRemoved" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.onRemoved">
   onRemoved
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -262,7 +262,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_onUpdated" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.onUpdated">
   onUpdated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -297,7 +297,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_AddImmunity_ToolkitEngine_StatusFX_StatusEffectType_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.AddImmunity(ToolkitEngine.StatusFX.StatusEffectType)">
   AddImmunity(StatusEffectType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L361"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -333,7 +333,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_Apply_ToolkitEngine_StatusFX_StatusEffectType_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.Apply(ToolkitEngine.StatusFX.StatusEffectType,GameObject)">
   Apply(StatusEffectType, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -371,7 +371,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_Apply_ToolkitEngine_StatusFX_StatusEffectType_System_Single_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.Apply(ToolkitEngine.StatusFX.StatusEffectType,System.Single,GameObject)">
   Apply(StatusEffectType, float, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -411,7 +411,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_CanApply_ToolkitEngine_StatusFX_StatusEffectType_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.CanApply(ToolkitEngine.StatusFX.StatusEffectType)">
   CanApply(StatusEffectType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -447,7 +447,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_CanRemove_ToolkitEngine_StatusFX_StatusEffectType_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.CanRemove(ToolkitEngine.StatusFX.StatusEffectType)">
   CanRemove(StatusEffectType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L197"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -483,7 +483,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_Recycle" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.Recycle">
   Recycle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -509,7 +509,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_Remove_ToolkitEngine_StatusFX_StatusEffectType_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.Remove(ToolkitEngine.StatusFX.StatusEffectType,GameObject)">
   Remove(StatusEffectType, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L276"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -547,7 +547,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_RemoveAll_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.RemoveAll(GameObject)">
   RemoveAll(GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L302"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -578,7 +578,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_RemoveImmunity_ToolkitEngine_StatusFX_StatusEffectType_" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.RemoveImmunity(ToolkitEngine.StatusFX.StatusEffectType)">
   RemoveImmunity(StatusEffectType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L375"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -614,7 +614,7 @@ Class StatusEffectControl  <a class="header-action link-secondary" title="View s
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectControl_TryGetStatusEffectState_ToolkitEngine_StatusFX_StatusEffectType_ToolkitEngine_StatusFX_StatusEffectState__" data-uid="ToolkitEngine.StatusFX.StatusEffectControl.TryGetStatusEffectState(ToolkitEngine.StatusFX.StatusEffectType,ToolkitEngine.StatusFX.StatusEffectState@)">
   TryGetStatusEffectState(StatusEffectType, out StatusEffectState)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectControl.cs/#L195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

@@ -934,6 +934,21 @@ references:
   fullName.vb: ToolkitEngine.StatusFX.StatusEffectType.Apply(GameObject, Single, GameObject)
   nameWithType: StatusEffectType.Apply(GameObject, float, GameObject)
   nameWithType.vb: StatusEffectType.Apply(GameObject, Single, GameObject)
+- uid: ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform,GameObject)
+  name: Apply(Transform, GameObject)
+  href: api/ToolkitEngine.StatusFX.StatusEffectType.html#ToolkitEngine_StatusFX_StatusEffectType_Apply_Transform_GameObject_
+  commentId: M:ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform,GameObject)
+  fullName: ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform, GameObject)
+  nameWithType: StatusEffectType.Apply(Transform, GameObject)
+- uid: ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform,System.Single,GameObject)
+  name: Apply(Transform, float, GameObject)
+  href: api/ToolkitEngine.StatusFX.StatusEffectType.html#ToolkitEngine_StatusFX_StatusEffectType_Apply_Transform_System_Single_GameObject_
+  commentId: M:ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform,System.Single,GameObject)
+  name.vb: Apply(Transform, Single, GameObject)
+  fullName: ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform, float, GameObject)
+  fullName.vb: ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform, Single, GameObject)
+  nameWithType: StatusEffectType.Apply(Transform, float, GameObject)
+  nameWithType.vb: StatusEffectType.Apply(Transform, Single, GameObject)
 - uid: ToolkitEngine.StatusFX.StatusEffectType.Apply*
   name: Apply
   href: api/ToolkitEngine.StatusFX.StatusEffectType.html#ToolkitEngine_StatusFX_StatusEffectType_Apply_
@@ -967,6 +982,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.StatusFX.StatusEffectType.color
   nameWithType: StatusEffectType.color
+- uid: ToolkitEngine.StatusFX.StatusEffectType.description
+  name: description
+  href: api/ToolkitEngine.StatusFX.StatusEffectType.html#ToolkitEngine_StatusFX_StatusEffectType_description
+  commentId: P:ToolkitEngine.StatusFX.StatusEffectType.description
+  fullName: ToolkitEngine.StatusFX.StatusEffectType.description
+  nameWithType: StatusEffectType.description
+- uid: ToolkitEngine.StatusFX.StatusEffectType.description*
+  name: description
+  href: api/ToolkitEngine.StatusFX.StatusEffectType.html#ToolkitEngine_StatusFX_StatusEffectType_description_
+  commentId: Overload:ToolkitEngine.StatusFX.StatusEffectType.description
+  isSpec: "True"
+  fullName: ToolkitEngine.StatusFX.StatusEffectType.description
+  nameWithType: StatusEffectType.description
 - uid: ToolkitEngine.StatusFX.StatusEffectType.duration
   name: duration
   href: api/ToolkitEngine.StatusFX.StatusEffectType.html#ToolkitEngine_StatusFX_StatusEffectType_duration
@@ -1228,6 +1256,95 @@ references:
   commentId: F:ToolkitEngine.StatusFX.VisualScripting.EventHooks.OnStatusEffectUpdated
   fullName: ToolkitEngine.StatusFX.VisualScripting.EventHooks.OnStatusEffectUpdated
   nameWithType: EventHooks.OnStatusEffectUpdated
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent
+  name: GetStatusEffectComponent
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html
+  commentId: T:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent
+  nameWithType: GetStatusEffectComponent
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.Definition
+  name: Definition()
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_Definition
+  commentId: M:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.Definition
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.Definition()
+  nameWithType: GetStatusEffectComponent.Definition()
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.Definition*
+  name: Definition
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_Definition_
+  commentId: Overload:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.Definition
+  isSpec: "True"
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.Definition
+  nameWithType: GetStatusEffectComponent.Definition
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.GetComponent(Flow,Transform,System.Type)
+  name: GetComponent(Flow, Transform, Type)
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_GetComponent_Flow_Transform_System_Type_
+  commentId: M:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.GetComponent(Flow,Transform,System.Type)
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.GetComponent(Flow, Transform, System.Type)
+  nameWithType: GetStatusEffectComponent.GetComponent(Flow, Transform, Type)
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.GetComponent*
+  name: GetComponent
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_GetComponent_
+  commentId: Overload:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.GetComponent
+  isSpec: "True"
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.GetComponent
+  nameWithType: GetStatusEffectComponent.GetComponent
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.component
+  name: component
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_component
+  commentId: F:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.component
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.component
+  nameWithType: GetStatusEffectComponent.component
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.inputTrigger
+  name: inputTrigger
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_inputTrigger
+  commentId: P:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.inputTrigger
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.inputTrigger
+  nameWithType: GetStatusEffectComponent.inputTrigger
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.inputTrigger*
+  name: inputTrigger
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_inputTrigger_
+  commentId: Overload:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.inputTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.inputTrigger
+  nameWithType: GetStatusEffectComponent.inputTrigger
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.invalidTrigger
+  name: invalidTrigger
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_invalidTrigger
+  commentId: P:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.invalidTrigger
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.invalidTrigger
+  nameWithType: GetStatusEffectComponent.invalidTrigger
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.invalidTrigger*
+  name: invalidTrigger
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_invalidTrigger_
+  commentId: Overload:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.invalidTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.invalidTrigger
+  nameWithType: GetStatusEffectComponent.invalidTrigger
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.statusEffectEventArgs
+  name: statusEffectEventArgs
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_statusEffectEventArgs
+  commentId: F:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.statusEffectEventArgs
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.statusEffectEventArgs
+  nameWithType: GetStatusEffectComponent.statusEffectEventArgs
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.type
+  name: type
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_type
+  commentId: F:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.type
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.type
+  nameWithType: GetStatusEffectComponent.type
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.validTrigger
+  name: validTrigger
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_validTrigger
+  commentId: P:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.validTrigger
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.validTrigger
+  nameWithType: GetStatusEffectComponent.validTrigger
+- uid: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.validTrigger*
+  name: validTrigger
+  href: api/ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.html#ToolkitEngine_StatusFX_VisualScripting_GetStatusEffectComponent_validTrigger_
+  commentId: Overload:ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.validTrigger
+  isSpec: "True"
+  fullName: ToolkitEngine.StatusFX.VisualScripting.GetStatusEffectComponent.validTrigger
+  nameWithType: GetStatusEffectComponent.validTrigger
 - uid: ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectApplied
   name: OnStatusEffectApplied
   href: api/ToolkitEngine.StatusFX.VisualScripting.OnStatusEffectApplied.html

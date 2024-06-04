@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -131,7 +131,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_color" data-uid="ToolkitEngine.StatusFX.StatusEffectType.color">
   color
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -158,11 +158,42 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="ToolkitEngine_StatusFX_StatusEffectType_description_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.description*"></a>
+
+  <h3 id="ToolkitEngine_StatusFX_StatusEffectType_description" data-uid="ToolkitEngine.StatusFX.StatusEffectType.description">
+  description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string description { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_StatusFX_StatusEffectType_duration_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.duration*"></a>
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_duration" data-uid="ToolkitEngine.StatusFX.StatusEffectType.duration">
   duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -193,7 +224,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_durationMode" data-uid="ToolkitEngine.StatusFX.StatusEffectType.durationMode">
   durationMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -224,7 +255,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_icon" data-uid="ToolkitEngine.StatusFX.StatusEffectType.icon">
   icon
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -286,7 +317,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_maxStack" data-uid="ToolkitEngine.StatusFX.StatusEffectType.maxStack">
   maxStack
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -348,7 +379,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_script" data-uid="ToolkitEngine.StatusFX.StatusEffectType.script">
   script
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -379,7 +410,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_stackMode" data-uid="ToolkitEngine.StatusFX.StatusEffectType.stackMode">
   stackMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -414,7 +445,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_Apply_GameObject_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Apply(GameObject,GameObject)">
   Apply(GameObject, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -447,7 +478,7 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_Apply_GameObject_System_Single_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Apply(GameObject,System.Single,GameObject)">
   Apply(GameObject, float, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -478,11 +509,79 @@ Class StatusEffectType  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="ToolkitEngine_StatusFX_StatusEffectType_Apply_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Apply*"></a>
+
+  <h3 id="ToolkitEngine_StatusFX_StatusEffectType_Apply_Transform_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform,GameObject)">
+  Apply(Transform, GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Apply(Transform target, GameObject source = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>source</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_StatusFX_StatusEffectType_Apply_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Apply*"></a>
+
+  <h3 id="ToolkitEngine_StatusFX_StatusEffectType_Apply_Transform_System_Single_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Apply(Transform,System.Single,GameObject)">
+  Apply(Transform, float, GameObject)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Apply(Transform target, float duration, GameObject source = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_StatusFX_StatusEffectType_Remove_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Remove*"></a>
 
   <h3 id="ToolkitEngine_StatusFX_StatusEffectType_Remove_GameObject_GameObject_" data-uid="ToolkitEngine.StatusFX.StatusEffectType.Remove(GameObject,GameObject)">
   Remove(GameObject, GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.statusfx/blob/master/Runtime/StatusEffectType.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
