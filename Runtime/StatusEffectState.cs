@@ -45,7 +45,7 @@ namespace ToolkitEngine.StatusFX
 
         public StatusEffectControl statusEffectControl { get; internal set; }
 
-        public StatusEffectType statusEffectType => m_statusEffectType;
+        public StatusEffectType statusEffectType { get => m_statusEffectType; internal set => m_statusEffectType = value; }
 
         public StatusEffect[] statusEffects => m_statusEffects.ToArray();
 

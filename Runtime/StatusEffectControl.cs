@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using Unity.VisualScripting;
-using System.Linq;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace ToolkitEngine.StatusFX
 {
@@ -392,6 +396,33 @@ namespace ToolkitEngine.StatusFX
 			}
 		}
 
+		#endregion
+
+		#region Editor-Only
+#if UNITY_EDITOR
+
+		[ContextMenu("Add All Status Effects")]
+		private void AddAllStatusEffects()
+		{
+			List<StatusEffectState> effectStates = new();
+
+			var effectTypesGuids = AssetDatabase.FindAssets("t:StatusEffectType");
+			foreach (var guid in effectTypesGuids)
+			{
+				var effectType = AssetDatabase.LoadAssetAtPath<StatusEffectType>(
+					AssetDatabase.GUIDToAssetPath(guid));
+
+				effectStates.Add(new StatusEffectState()
+				{
+					statusEffectControl = this,
+					statusEffectType = effectType,
+				});
+			}
+
+			m_statusEffects = effectStates.ToArray();
+		}
+
+#endif
 		#endregion
 	}
 }

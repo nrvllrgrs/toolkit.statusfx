@@ -60,6 +60,7 @@ namespace ToolkitEngine.StatusFX
 
 		public string id => m_id;
 		public new string name => m_name;
+		public string description => m_description;
 		public Sprite icon => m_icon;
 		public Color color => m_color;
 		public DurationMode durationMode => m_durationMode;
@@ -89,6 +90,16 @@ namespace ToolkitEngine.StatusFX
 		#endregion
 
 		#region Methods
+
+		public void Apply(Transform target, GameObject source = null)
+		{
+			Apply(target.gameObject, source);
+		}
+
+		public void Apply(Transform target, float duration, GameObject source = null)
+		{
+			Apply(target.gameObject, duration, source);
+		}
 
 		public void Apply(GameObject target, GameObject source = null)
 		{
